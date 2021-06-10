@@ -1,0 +1,140 @@
+/* Geral */
+body{
+    height: 100%;
+    
+    background-color: rgb(243, 129, 218);
+    color: rgb(0, 0, 0);
+    font-family: "Trirong", serif;
+  }
+/*  to pensando */
+.sol{
+    width: 100%;
+    height: 550px;
+    margin: 40px auto;
+}
+/* navs / header */
+.nav-lista{
+    margin-left: 150px;
+}
+.nav-item{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.nav-link:hover{
+    color: mediumvioletred;
+}
+header nav img {
+    position: absolute;
+    width: 130px;
+    margin-top: 1px;
+    margin-left: 0px;
+}
+header { 
+    background-color: rgb(245, 89, 89);
+    height: 15%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+/* conteiner*/
+.container {
+    width: 960px;
+    height: 650px;
+    margin: 40px auto;
+    /* display: flex;
+    justify-content: center; */
+}
+.container-left {
+    width: 560px;
+    height: 270px;
+    margin: 80px auto;
+}
+.container-rigth {
+    width: 1060px;
+    height: 350px;
+    margin: 30px auto;
+    text-align:justify;  
+}
+/* produtos */
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.apresentacao{
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+}
+.img-label1{ 
+    width: 500px;
+}
+.rec1{
+    background-image: url("https://i.pinimg.com/564x/e3/69/e9/e369e95f286c4eec6f0ca5121fcfd090.jpg");
+}
+.rec2{
+    background-image: url("https://i.pinimg.com/564x/f5/29/cf/f529cfa84ada9186d82a8fc737f367d0.jpg");
+
+}
+.rec3{
+    background-image: url("https://i.pinimg.com/564x/64/74/7c/64747c7f24eb668cb76d3595b3c01a5d.jpg");
+
+}
+.rec4{
+    background-image: url("https://i.pinimg.com/564x/f5/e7/db/f5e7db02ef960371b894257109c82852.jpg");
+
+}
+.rec5{
+    background-image: url("https://i.pinimg.com/564x/78/5e/8a/785e8a975a99de80c3da3c5c9669b46a.jpg");
+
+}
+.rec6{
+    background-image: url("https://i.pinimg.com/564x/a0/ff/9b/a0ff9b44ed5527252733d8a2684b7807.jpg");
+
+}
+.rec7{
+    background-image: url("https://i.pinimg.com/564x/9e/b6/a9/9eb6a9520e62d3072b991a226a6d7d3f.jpg");
+
+
+}
+.name-recip{
+    font-size: 20px;
+}
+.see-more { 
+    width: 90px;
+    background: #ff4500;
+    color: white;
+    height: 40px;
+    position: relative;
+    align-self: center;
+    bottom: 30px;
+}
+
+
+.informacoes {
+    position: relative;
+    align-self: center;
+  }
+
+  .receita:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .receita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 15px 15px 0;
+  }
+
+  footer {
+    position:relative;
+
+  }
